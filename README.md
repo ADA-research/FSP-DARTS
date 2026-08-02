@@ -19,7 +19,7 @@ This project is based on the [PC-DARTS](https://github.com/yuhuixu1993/PC-DARTS)
 ├── fsp_test.py         # FSP evaluation for a single discrete model
 ├── fsp_adv_test.py     # FSP evaluation for a single discrete model under after additional fine-tuning with adversarial examples
 ├── fsp_search.py       # FSP evaluation and architecture parameter update integrated into PC-DARTS search
-├── model_search.py     # Added methods to construct the discrete candidate pool for fsp_search
+├── model_search.py     # Add methods to construct the discrete candidate pool for fsp_search
 ├── train_search.py     # Add the FSP evaluation process to the search
 ├── train_adv.py        # Perform full adversarial training on the genotypes found by the search.
 ├── final_test.py       # Robustness testing of the final trained model
